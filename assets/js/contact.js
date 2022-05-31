@@ -17,7 +17,7 @@ function submitContact(event){
 			subject: subject.value,
 			message: message.value,
 		}
-		axios.post('http://localhost:3000/send', contact)
+		axios.post('https://seftond.github.io/send', contact)
 		username.value = '';
 		email.value = '';
 		subject.value = '';
