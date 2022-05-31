@@ -2,7 +2,7 @@
   "name": "seftond.github.io",
   "version": "1.0.0",
   "description": "",
-  "main": "/assets/js/main.js",
+  "main": "./assets/js/server/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/Seftond/Seftond.github.io/issues"
   },
-  "homepage": "https://github.com/Seftond/Seftond.github.io#readme"
+  "homepage": "https://github.com/Seftond/Seftond.github.io#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "gitignore": "^0.7.0",
+    "nodemailer": "^6.7.5"
+  }
 }
